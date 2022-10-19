@@ -1,0 +1,30 @@
+/*Importar fontes externas*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Montserrat);
+
+/*Aplicar a fonte e a cor a todos os elementos do HTML*/
+*{
+    font-family: 'Open Sans', sans-serif !important;    
+    color: #FFF;
+}
+
+/*Imagen de fundo do corpo do HTML*/
+body {
+    background-image: url('./assets/image/background.jpg');
+
+}
+.page-header h1 {
+    text-align: center;
+}
+/*Pe de página HTML*/
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto;  
+    text-align: center;
+}
+/*Cabeçalho da tabela de pessoas*/
+#tblList thead{
+    background: gray;
+    color: #FFF;
+}
